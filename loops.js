@@ -9,7 +9,18 @@
  */
 
 const fruits = ["banana", "apple", "pear", "peach", "orange"];
+const name = "Gen Vikat"; // String
+const age = 50; // Number
+const isTeacher = true; // Boolean
 
+
+console.log("For loop ....")
 for(let index = 0; index < fruits.length; index++) {
     console.log(fruits[index]);
 };
+
+console.log("forEach loop ....");
+fruits.forEach((fruit) => {
+    console.log(fruit.toUpperCase());
+});
+
